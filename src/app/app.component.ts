@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { disableDebugTools } from '@angular/platform-browser';
+
 
 @Component({
   selector: 'app-root',
@@ -8,7 +8,6 @@ import { disableDebugTools } from '@angular/platform-browser';
 })
 export class AppComponent {
   title = 'calculator';
-
 
 
   calValue: number = 0;
